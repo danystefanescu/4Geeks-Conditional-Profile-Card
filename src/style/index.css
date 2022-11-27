@@ -1,6 +1,9 @@
 .filters {
   background: white;
-  width: 100%;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
 }
 .filters li {
   display: inline-block;
@@ -14,9 +17,11 @@
 }
 .filters li input {
   width: 100%;
+  border: 1px solid black;
 }
 .filters li select {
-  width: 100%;
+  width: 110%;
+  border: 1px solid black;
 }
 .widget {
   position: relative;
@@ -53,10 +58,10 @@
   display: block;
   margin: 10px 0;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
   font-weight: 300;
-  color: #999;
+  color: rgb(89, 77, 170);
 }
 .widget h1 {
   margin: 60px 0 20px;
@@ -64,7 +69,7 @@
   color: #000;
 }
 .widget h3 {
-  font-size: 12px;
+  font-size: 14px;
 }
 .widget ul {
   position: absolute;
