@@ -10,17 +10,20 @@
       integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
     <link rel="shortcut icon" href="./assets/img/4geeks.ico" />
   </head>
 
   <body>
     <ul class="filters">
       <li>
-        <label>Include Cover</label>
+        <label>Cover</label>
         <select class="picker" for="includeCover">
-          <option value="">Include Cover</option>
-          <option value="true">True</option>
-          <option value="false">False</option>
+          <option value="true">Include</option>
+          <option value="false">Exclude</option>
         </select>
       </li>
       <li>
@@ -34,8 +37,8 @@
       <li>
         <label>S.M. Position</label>
         <select class="picker" for="socialMediaPosition">
-          <option value="position-left">Left</option>
           <option value="position-right">Right</option>
+          <option value="position-left">Left</option>
         </select>
       </li>
       <li>
@@ -57,7 +60,7 @@
       <li>
         <label>Role</label>
         <select class="picker" for="role">
-          <option value="">null</option>
+          <option value="Select your career">Select</option>
           <option value="Web Developer">Web Developer</option>
           <option value="Floor Planner">Floor Planner</option>
           <option value="Technical Writter">Technical Writter</option>
@@ -66,7 +69,7 @@
       <li>
         <label>City</label>
         <select class="picker" for="city">
-          <option value="">null</option>
+          <option value="City">Select</option>
           <option value="Miami">Miami</option>
           <option value="Munich">Munich</option>
           <option value="Caracas">Caracas</option>
@@ -76,7 +79,7 @@
       <li>
         <label>Country</label>
         <select class="picker" for="country">
-          <option value="">null</option>
+          <option value="Country">Select</option>
           <option value="USA">USA</option>
           <option value="Germany">Germany</option>
           <option value="Canada">Canada</option>
